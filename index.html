@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>luau waikiki</title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:300,400|Archivo+Black" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
+    </head>
+  <body>
+    <div class="masthead">
+      <section>
+        <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+        <a href="#" class="cart-link"><i class="material-icons">shopping_cart</i></a>
+        <button type="button" class="menu-btn" name="button" id="menu-btn">
+          <hr class="menu-btn-hr-1"/>
+          <hr class="menu-btn-hr-2"/>
+          <hr class="menu-btn-hr-3"/>
+        </button>
+        <nav class="main-nav" id="main-nav">
+          <a href="#">luaus</a>
+          <a href="#">about</a>
+          <a href="#">contact</a>
+          <a href="#">cart</a>
+        </nav>
+      </section>
+      <nav class="phone">
+        <ul>
+          <li><a href="#" onclick="tel:+1-866-482-9775"><span>toll free</span> 1-866-482-9775</a></li>
+          <li><a href="#" onclick="tel:808-892-2082"><span>local</span> 808-892-2082</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- == banner  == -->
+    <div class="banner">
+      <div class="banner-header">
+        <header>
+          <h2>discount <br/> waikiki<br/> luaus</h2>
+          <h3>more text goes here</h3>
+          <button type="button" onclick="scrollDown('product-section',0)">explore</button>
+        </header>
+        <div class="overlay"></div>
+      </div>
+      <div class="banner-img"></div>
+    </div>
+    <!-- == banner  == -->
+
+    <div class="product-section" id="product-section">
+          <header>
+            start by choosing a luau<span>or learn more below</span>
+          </header>
+          <hr class="p-border">
+        <div class="product-nav">
+    <!-- =============  ==========  =========== -->
+                <div class="product-bloc">
+                  <div class="product" id="product-1">
+                    <section>
+                      <header></header>
+                      <h2>chief's luau</h2><h3>the best luau in hawaii</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                  <div class="product" id="product-2">
+                    <section>
+                      <header></header>
+                      <h2>aha'aina luau</h2><h3>Waikiki’s only oceanfront dinner show</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                </div>
+                  <!-- ============================== -->
+                <div class="product-bloc">
+                  <div class="product" id="product-3">
+                    <section>
+                      <header></header>
+                      <h2>germaine's luau</h2><h3>hawaii's original backyard barbecue</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                  <div class="product" id="product-4">
+                    <section>
+                      <header></header>
+                      <h2>daimond head luau</h2>
+                      <h3>hawaii's only farm to table luau</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                </div>
+                <!-- ============================== -->
+                <div class="product-bloc">
+                  <div class="product" id="product-5">
+                    <section>
+                      <header></header><h2>polynesian cultural center</h2><h3>oahu's most authentic luau</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                  <div class="product" id="product-6">
+                    <section>
+                      <header></header><h2>waikiki starlight luau</h2><h3>oahu's best outdoor luau</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                </div>
+                <!-- ============================== -->
+                <div class="product-bloc">
+                  <div class="product" id="product-7">
+                    <section>
+                      <header></header>
+                      <h2>toa luau</h2>
+                      <h3>5 star trip advisor reviewed</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                  <div class="product" id="product-8">
+                    <section>
+                      <header></header>
+                      <h2>ka moana luau</h2><h3>includes sealife park admission</h3>
+                      <ul><li><p>from <span>$000.00</span></p></li><li><b>from <span>25%</span></b></li></ul>
+                      <a href="#">book now</a>
+                    </section>
+                  </div>
+                    <div class="product">
+
+                    </div>
+                </div>
+        <!-- ======= end ===== -->
+        </div>
+        <hr class="p-border">
+        <!-- ============================== -->
+        <nav class="scroll-nav">
+          <button id="prev-button" type="button" name="button"><i class="material-icons">chevron_left</i></button>
+          <p class="scroll-span">1 / 3</p>
+          <button id="next-button" type="button" name="button"><i class="material-icons">chevron_right</i></button>
+        </nav>
+      </div>
+
+    <!-- ==================== -->
+
+      <div class="disc-wrapper">
+  <!-- ===== -->
+        <h2>discover oahu luaus</h2>
+        <!-- <h3>click a luau below to learn more</h3> -->
+  <!-- ===== -->
+
+  <!-- ===== -->
+    <div class="disc-cont">
+      <div class="disc-bloc">
+        <section id="disc-1">
+          <header> <img src="images/chiefsDisc.png" alt=""> </header>
+          <b>chief's luau</b>
+          <p>at wet 'n' wild hawaii</p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now"  type="button" name="button">book now</button>
+        </section>
+        <section id="disc-2">
+          <header> <img src="images/germains-disc.png" alt=""> </header>
+          <b>germaine's luau</b>
+          <p><span>_</span></p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now" type="button" name="button">book now</button>
+        </section>
+        <section id="disc-3">
+          <header> <img src="images/ahaaina-disc.png" alt=""> </header>
+          <b>Aha'aina Luau</b>
+          <p>The Royal Hawaiian</p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now" type="button" name="button">book now</button>
+        </section>
+          <section id="disc-4">
+            <header> <img src="images/diamondhead-disc.png" alt=""> </header>
+            <b>diamond head luau</b>
+            <p><span>_</span></p>
+            <button type="button" class="learn-more" name="button">learn more</button>
+            <button class="book-now" type="button" name="button">book now</button>
+          </section>
+      </div>
+    </div>
+    <!-- ===== -->
+
+    <!-- ===== -->
+    <div id="second-disc" class="disc-cont-checkpoint">
+      <div class="disc-bloc">
+        <section id="disc-5">
+          <header> <img src="images/pcc-disc.png" alt=""> </header>
+          <b>polynesian cultural center</b>
+          <p>all day packages</p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now" type="button" name="button">book now</button>
+        </section>
+        <section id="disc-6">
+          <header> <img src="images/hiltonDisc.png" alt=""> </header>
+          <b>Waikiki Starlight Luau</b>
+          <p>hilton hawaiian village</p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now" type="button" name="button">book now</button>
+        </section>
+        <section id="disc-7">
+          <header> <img src="images/toaDisc.jpg" alt=""> </header>
+          <b>toa luau</b>
+          <p>waimea valley</p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now" type="button" name="button">book now</button>
+        </section>
+        <section id="disc-8">
+          <header> <img src="images/moana-disc.png" alt=""> </header>
+          <b>ka moana luau</b>
+          <p>sealife park</p>
+          <button type="button" class="learn-more" name="button">learn more</button>
+          <button class="book-now" type="button" name="button">book now</button>
+        </section>
+      </div>
+    </div>
+    <!-- ===== -->
+
+    <!-- ===== -->
+    <button type="button" onclick="idToggle('second-disc','active');scrollDown('second-disc',100)" name="button" id="next-disc">more luaus</button>
+  </div>
+
+<!-- ========================== -->
+<div class="info-wrapper">
+  <div class="wave-banner"></div>
+  <div class="info-section">
+    <section class="vid-container">
+      <iframe src="https://www.youtube.com/embed/MbT1yhNLv5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <aside>
+        <header>"quote from trip advisor goes here"</header>
+        <p><img src="images/tripadvisor-white.png" alt="">
+          <i class="material-icons">radio_button_checked</i>
+          <i class="material-icons">radio_button_checked</i>
+          <i class="material-icons">radio_button_checked</i>
+          <i class="material-icons">radio_button_checked</i>
+        </p>
+      </aside>
+    </section>
+    <div class="article-section">
+      <article class="article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <article class="article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <article class="article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+      <div class="article-nav">
+        <button id="prev-article" type="button" name="button" onclick="sliderPlus(-1)"><i class="material-icons">chevron_left</i></button>
+        <button class="cur-art" type="button" name="button" onclick="sliderCurrent(1)"><i class="material-icons">radio_button_unchecked</i></button>
+        <button class="cur-art" type="button" name="button" onclick="sliderCurrent(2)"><i class="material-icons">radio_button_unchecked</i></button>
+        <button class="cur-art" type="button" name="button" onclick="sliderCurrent(3)"><i class="material-icons">radio_button_unchecked</i></button>
+        <button id="article-plus" type="button" name="button" onclick="sliderPlus(1)"><i class="material-icons">chevron_right</i></button>
+      </div>
+    </div>
+  </div>
+  <div class="wave-banner"></div>
+</div>
+<!-- ========================== -->
+<div class="review-section">
+<div class="review-wrapper">
+<h3>trip advisor reviews</h3>
+<article>
+  <header>
+    "Fun and entertaining evening"
+  </header>
+  <section>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+  </section>
+  <p>
+    The venue for this Luau is really nice, on the "front yard" of a resort. The food, drinks and entertainment were really good. I was really happy with the event.
+  </p>
+</article>
+<article>
+  <header>
+    "great fun"
+  </header>
+  <section>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+  </section>
+  <p>
+    Entertainment was top notch and acoustics were great. Food and drinks were excellent and plenty of it. Great fun will would do again.
+  </p>
+</article>
+<article>
+  <header>
+    "Huaka'i Luau Maui - Amazing!""
+  </header>
+  <section>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+    <i class="material-icons">radio_button_checked</i>
+  </section>
+  <p>
+    This was a great experience of our first Luau in Maui. Beautiful Venue and truly an amazing performance of the Journey through Polynesia.
+  </p>
+</article>
+<div class="ta-link">
+<a href="#"> <img src="images/tripadvisor.png"/><br><p>more reviews</p></a>
+</div>
+</div>
+<div class="review-footer">
+<div class="wave-banner"></div>
+</div>
+</div>
+<!-- ==================================================================  -->
+<div class="coverage-section">
+  <h2>we've got you covered</h2>
+  <ul>
+    <li id="c-1">
+      <span>
+      <i class="material-icons icon-first">laptop</i>
+      <i class="material-icons icon-second">lock</i>
+      </span>
+      <header>safe and</br>secure</header>
+      <p>Online booking system with validated privacy protection</p>
+    </li>
+    <li id="c-2">
+      <span>
+        <i class="material-icons icon-first">event</i>
+        <i class="material-icons icon-second">call</i>
+      </span>
+      <header>same day</br>reservationst</header>
+      <p>Receive a full refund if cancellation is made at least 48 hours in advance</p>
+    </li>
+    <li id="c-3">
+      <span>
+        <i class="material-icons icon-first">sentiment_satisfied_alt</i>
+      </span>
+      <header>friendly</br>support</header>
+      <p>Receive your voucher the same day after booking your activity</p>
+    </li>
+    <li id="c-4">
+      <span>
+        <i class="material-icons icon-first">undo</i>
+        <i class="material-icons icon-second">attach_money</i>
+      </span>
+      <header>money back</br>guranteed</header>
+      <p>Our representatives will help you select the best activities and ensure 100% satisfaction</p>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================  -->
+<footer>
+  <header>
+    <img src="images/logo.png" alt="">
+  </header>
+  <section>
+    <ul>
+      <li><b>luaus</b></li>
+      <li> <a href="#">chief's luau</a> </li>
+      <li> <a href="#">germaine's luau</a> </li>
+      <li> <a href="#">royal hawaiian luau</a> </li>
+      <li> <a href="#">diamondhead luau</a> </li>
+      <li> <a href="#">polyneisan cultural center</a> </li>
+      <li> <a href="#">waikiki starlight luau</a> </li>
+      <li> <a href="#">toa luau</a> </li>
+      <li> <a href="#">ka moana luau</a> </li>
+    </ul>
+    <ul>
+      <li><b>navigation</b></li>
+      <li> <a href="#">home</a> </li>
+      <li> <a href="#">contact</a> </li>
+      <li> <a href="#">about us</a> </li>
+      <li> <a href="#">cart</a> </li>
+    </ul>
+    <ul>
+      <li><b>site info</b></li>
+      <li> <a href="#">faq</a> </li>
+      <li> <a href="#">site map</a> </li>
+      <li> <a href="#">privacy policy</a> </li>
+      <li> <a href="#">terms</a> </li>
+      <li> <a href="#">login</a> </li>
+    </ul>
+  </section>
+</footer>
+<!-- ===== -->
+    <script type="text/javascript" src="toggle.js">
+
+    </script>
+    <script type="text/javascript" src="gallery.js">
+
+    </script>
+    <script type="text/javascript" src="main.js">
+
+    </script>
+    <!-- ============ -->
+  </body>
+</html>
