@@ -232,6 +232,7 @@ text-align: center;
   width: 100%;
   display: table;
   overflow: hidden;
+	height: 500px;
 }
 .banner-header {
   width: 50%;
@@ -332,6 +333,7 @@ text-align: center;
     width: 100%;
     display: block;
     transform: scaleY(-1);
+		height: auto;
 	}
 	.banner-header {
     width: 100%;
@@ -853,7 +855,7 @@ text-align: center;
 	.disc-bloc section {
     display: inline-block;
     width: 48%;
-    vertical-align: top;	
+    vertical-align: top;
 }
 	.disc-bloc section {
 	  display: inline-block;
@@ -997,7 +999,7 @@ text-align: center;
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url("images/circle-White.png");
+  background-image: url("images/circle-white.png");
   background-size: cover;
   background-position: right;
   mix-blend-mode: overlay;
